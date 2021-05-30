@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Code checkout') {
             steps {
-               git credentialsId: 'telGit', url: 'https://github.com/madhutanugula/intense.git'
+               git credentialsId: 'git-2', url: 'https://github.com/madhutanugula/intense.git'
                    }
         }
     
